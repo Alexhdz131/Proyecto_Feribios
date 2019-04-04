@@ -95,6 +95,7 @@
         android:text="Perfil"
         android:textAlignment="center"
         android:textColor="@color/colordeletra"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"

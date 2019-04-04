@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 else
                 {
-                    Toast.makeText(getApplicationContext(),"Usuario Incorrecto",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Usuario Incorrecto/Contraseña Incorrecta",Toast.LENGTH_SHORT).show();
                 }
             }
         });
