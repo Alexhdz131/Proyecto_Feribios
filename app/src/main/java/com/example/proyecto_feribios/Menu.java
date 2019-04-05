@@ -26,4 +26,8 @@ public class Menu extends AppCompatActivity {
         Intent eventos = new Intent(this, Proximoseventos.class);
         startActivity(eventos);
     }
+    public void Organizadores(View view) {
+        Intent organizadores = new Intent(this, Organizadores.class);
+        startActivity(organizadores);
+    }
 }
