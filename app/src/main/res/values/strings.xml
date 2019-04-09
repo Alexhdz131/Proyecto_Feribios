@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Feribios</string>
+    <string name="title_eventos_list">Eventos</string>
+    <string name="title_eventos_detail">Eventos Detail</string>
 </resources>
