@@ -30,4 +30,9 @@ public class Menu extends AppCompatActivity {
         Intent organizadores = new Intent(this, Organizadores.class);
         startActivity(organizadores);
     }
+    public void Perfil(View view) {
+        Intent perfil = new Intent(this, Perfil.class);
+        startActivity(perfil);
+    }
+
 }
