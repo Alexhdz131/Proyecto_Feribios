@@ -52,4 +52,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(intent);
     }
+    public void Registro(View view) {
+        Intent registro = new Intent(this, Registro.class);
+        startActivity(registro);
+    }
 }
