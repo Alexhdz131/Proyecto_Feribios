@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/galeria"
+    android:background="@drawable/fondosiete"
     tools:context=".Galeria">
 
     <Button
@@ -23,17 +23,17 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="155dp"
+        android:layout_width="290dp"
         android:layout_height="52dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:background="@drawable/button_rounden_border"
         android:text="Galeria"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/button_rounden_border"/>
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
