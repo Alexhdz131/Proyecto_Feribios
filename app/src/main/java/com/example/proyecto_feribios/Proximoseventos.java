@@ -16,4 +16,9 @@ public class Proximoseventos extends AppCompatActivity {
         Intent menu = new Intent(this, Menu.class);
         startActivity(menu);
     }
+
+    public void Tallerdelectura(View view) {
+        Intent tallerdelectura = new Intent(this, Tallerdelectura.class);
+        startActivity(tallerdelectura);
+    }
 }
