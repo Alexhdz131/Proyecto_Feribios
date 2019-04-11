@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Proyeccion"></activity>
+        <activity android:name=".Ficirco"></activity>
+        <activity android:name=".Cursodeajedrez" />
+        <activity android:name=".Gastronomiaanaya" />
+        <activity android:name=".Proyeccion" />
         <activity android:name=".Tallerdelectura" />
         <activity android:name=".Registro" />
         <activity android:name=".Perfil" />
