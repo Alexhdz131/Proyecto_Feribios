@@ -39,5 +39,10 @@ public class Proximoseventos extends AppCompatActivity {
         startActivity(ficirco);
     }
 
+    public void Tallerubuntu(View view) {
+        Intent tallerubuntu= new Intent(this, Tallerubuntu.class);
+        startActivity(tallerubuntu);
+    }
+
 
 }
