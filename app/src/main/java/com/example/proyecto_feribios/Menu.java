@@ -34,5 +34,9 @@ public class Menu extends AppCompatActivity {
         Intent perfil = new Intent(this, Perfil.class);
         startActivity(perfil);
     }
+    public void Ofertas(View view) {
+        Intent ofertas = new Intent(this, Tallerubuntu.class);
+        startActivity(ofertas);
+    }
 
 }
