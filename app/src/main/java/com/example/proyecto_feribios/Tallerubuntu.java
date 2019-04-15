@@ -20,7 +20,7 @@ import java.net.URL;
 public class Tallerubuntu extends AppCompatActivity {
     private ListView lis_even;
     private ArrayAdapter adapter;
-    private String getAllContactsURL = "https://feribioswebservice.herokuapp.com/api_clientes?user_hash=12345&action=get";
+    private String getAllContactsURL = "https://ejemplowebservice.herokuapp.com/api_ofertas?user_hash=12345&action=get";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,10 +69,10 @@ public class Tallerubuntu extends AppCompatActivity {
         for (int i = 0; i < jsonArray.length(); i++) {
             try {
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
-                id_oferta = jsonObject.getString("id_evento");
+                id_oferta = jsonObject.getString("id_oferta");
                 descripcion = jsonObject.getString("descripcion");
-                puesto = jsonObject.getString("titulo");
-                evento = jsonObject.getString("titulo");
+                puesto = jsonObject.getString("puesto");
+                evento = jsonObject.getString("evento");
                 fecha = jsonObject.getString("fecha");
                 hora = jsonObject.getString("hora");
                 adapter.add("Descripcion:" + descripcion + "\n" + "Numero puesto:" + puesto + "\n" + "evento:" + evento +  "\n" + "fecha:" + fecha + "\n" + "hora:" + hora);

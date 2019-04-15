@@ -13,7 +13,7 @@ public class Registro extends AppCompatActivity {
         setContentView(R.layout.activity_registro);
     }
 
-    public void Registro(View view) {
+    public void Registrarse(View view) {
         Intent Registro = new Intent(this, Menu.class);
         startActivity(Registro);
     }

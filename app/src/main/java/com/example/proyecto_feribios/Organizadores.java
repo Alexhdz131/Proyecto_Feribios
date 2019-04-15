@@ -24,7 +24,7 @@ import java.net.URL;
 public class Organizadores extends AppCompatActivity {
     private ListView lis_even;
     private ArrayAdapter adapter;
-    private String getAllContactsURL = "https://feribioswebservice.herokuapp.com/api_clientes?user_hash=12345&action=get";
+    private String getAllContactsURL = "https://ejemplowebservice.herokuapp.com/api_organizadores?user_hash=12345&action=get";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
