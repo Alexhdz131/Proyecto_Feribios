@@ -65,6 +65,7 @@ public class Proximoseventos extends AppCompatActivity {
         String fecha;
         String hora;
         String ubicacion;
+        String organizador;
 
         try{
             jsonArray = new JSONArray(jsonResult);
@@ -80,7 +81,8 @@ public class Proximoseventos extends AppCompatActivity {
                 fecha = jsonObject.getString("fecha");
                 hora = jsonObject.getString("hora");
                 ubicacion = jsonObject.getString("ubicacion");
-                adapter.add("Titulo:" + titulo + "\n" + "descripcion:" + descripcion + "\n" + "fecha:" + fecha + "\n" + "hora:" + hora + "\n" + "ubicacion:" + ubicacion);
+                organizador = jsonObject.getString("organizador");
+                adapter.add("Titulo:" + titulo + "\n" + "descripcion:" + descripcion + "\n" + "fecha:" + fecha + "\n" + "hora:" + hora + "\n" + "ubicacion:" + ubicacion + "\n" + "organizador" + organizador);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
