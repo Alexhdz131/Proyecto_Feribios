@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View v) {
                 String usuario = ((EditText)findViewById(R.id.editText)).getText().toString();
                 String password = ((EditText)findViewById(R.id.editText3)).getText().toString();
-                if (usuario.equals("Alex")&& password.equals("alex1"))
+                if (usuario.equals("Juan")&& password.equals("juan1"))
                 {
                     Intent nuevoform = new Intent(MainActivity.this, Menu
                             .class);
