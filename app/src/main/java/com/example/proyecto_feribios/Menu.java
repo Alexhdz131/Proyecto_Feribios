@@ -27,7 +27,7 @@ public class Menu extends AppCompatActivity {
         startActivity(eventos);
     }
     public void Mapas(View view) {
-        Intent mapas = new Intent(this, Proyeccion.class);
+        Intent mapas = new Intent(this, MapsActivity.class);
         startActivity(mapas);
     }
     public void Organizadores(View view) {
@@ -42,5 +42,6 @@ public class Menu extends AppCompatActivity {
         Intent ofertas = new Intent(this, Tallerubuntu.class);
         startActivity(ofertas);
     }
+
 
 }

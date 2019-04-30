@@ -20,7 +20,7 @@ import java.net.URL;
 public class Tallerubuntu extends AppCompatActivity {
     private ListView lis_even;
     private ArrayAdapter adapter;
-    private String getAllContactsURL = "https://ejemplowebservice.herokuapp.com/api_ofertas?user_hash=12345&action=get";
+    private String getAllContactsURL = "http://ejemplowebservice.herokuapp.com/api_ofertas?user_hash=12345&action=get";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

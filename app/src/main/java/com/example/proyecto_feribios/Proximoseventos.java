@@ -25,7 +25,7 @@ public class Proximoseventos extends AppCompatActivity {
 
     private ListView lis_even;
     private ArrayAdapter adapter;
-    private String getAllContactsURL = "https://ejemplowebservice.herokuapp.com/api_clientes?user_hash=12345&action=get";
+    private String getAllContactsURL = "http://ejemplowebservice.herokuapp.com/api_evento?user_hash=12345&action=get";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,7 +82,7 @@ public class Proximoseventos extends AppCompatActivity {
                 hora = jsonObject.getString("hora");
                 ubicacion = jsonObject.getString("ubicacion");
                 organizador = jsonObject.getString("organizador");
-                adapter.add("Titulo:" + titulo + "\n" + "descripcion:" + descripcion + "\n" + "fecha:" + fecha + "\n" + "hora:" + hora + "\n" + "ubicacion:" + ubicacion + "\n" + "organizador" + organizador);
+                adapter.add("Titulo:" + titulo + "\n" + "descripcion:" + descripcion + "\n" + "fecha:" + fecha + "\n" + "hora:" + hora + "\n" + "ubicacion:" + ubicacion + "\n" + "organizador:" + organizador);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
